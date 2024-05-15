@@ -6,3 +6,4 @@ echo "deb https://dl.bintray.com/loadimpact/deb stable main" | sudo tee -a /etc/
 sudo apt-get update
 sudo apt-get install k6
 
+k6 run test-script.js
