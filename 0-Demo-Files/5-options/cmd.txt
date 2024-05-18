@@ -1,0 +1,30 @@
+k6 run --vus 10 --duration 10s cli_script.js
+
+K6_VUS=20 K6_DURATION=1m k6 run env_script.js
+set K6_VUS=5 && set K6_DURATION=10s && k6 run env_script.js
+cmd.exe /C "set K6_VUS=5 && set K6_DURATION=10s && k6 run env_script.js"
+
+
+k6 run --config config.json config_script.js
+
+set K6_VUS=20 && set K6_DURATION=1m && set MY_USER_AGENT=MyCustomAgent && k6 run dynamic_script.js
+
+k6 run exec_script.js
+
+
+// Bash commands
+
+k6 run --vus 5 --duration 10s cli_script.js
+export K6_VUS=5 && export K6_DURATION=10s && k6 run env_script.js
+k6 run --config config.json script.js
+export K6_VUS=3 && export K6_DURATION=5s && export MY_USER_AGENT=MyCustomAgent && k6 run dynamic_script.js
+k6 run exec_script.js
+
+// powerShell
+k6 run --vus 5 --duration 10s cli_script.js
+$env:K6_VUS=5; $env:K6_DURATION=10s; k6 run env_script.js
+k6 run --config config.json config_script.js
+$env:K6_VUS=20; $env:K6_DURATION=1m; $env:MY_USER_AGENT=MyCustomAgent; k6 run dynamic_script.js
+k6 run exec_script.js
+
+
