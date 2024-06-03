@@ -1,0 +1,6 @@
+docker run --rm -it -p 3333:3333  ghcr.io/grafana/quickpizza-local:latest
+
+cd k6/foundations
+k6 run 01.basic.js
+
+k6 run --iterations 1 --vus 1 01.basic.js
