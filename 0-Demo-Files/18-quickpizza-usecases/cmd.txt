@@ -4,3 +4,5 @@ cd k6/foundations
 k6 run 01.basic.js
 
 k6 run --iterations 1 --vus 1 01.basic.js
+
+

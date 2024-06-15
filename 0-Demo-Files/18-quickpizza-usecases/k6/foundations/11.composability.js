@@ -48,6 +48,18 @@ export const options = {
 const pizzas = new Counter('quickpizza_number_of_pizzas');
 const ingredients = new Trend('quickpizza_ingredients');
 
+/*const customersData = {
+  "customers": [
+    12351,
+    12352,
+    12353,
+    12354,
+    12355,
+    12356
+  ]
+};
+*/
+
 const customers = new SharedArray('all my customers', function () {
   return JSON.parse(open('./data/customers.json')).customers;
 });
@@ -72,6 +84,8 @@ export function getPizza() {
     headers: {
       'Content-Type': 'application/json',
       'X-User-ID': customers[Math.floor(Math.random() * customers.length)],
+      //'X-User-ID': customersData.customers[Math.floor(Math.random() * customersData.customers.length)],
+
     },
   });
   check(res, { "status is 200": (res) => res.status === 200 });

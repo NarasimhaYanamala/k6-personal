@@ -18,7 +18,7 @@ export const options = {
 
       // Required. k6 warns during execution 
       // if more VUs are needed to reach the desired iteration rate.
-      preAllocatedVUs: 60,
+      preAllocatedVUs: 25,
     },
   },
   thresholds: {
