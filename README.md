@@ -1,7 +1,7 @@
 # Mastery-Course-on-Grafana-Labs-k6---Performance-Testing
 Mastery Course on Grafana Labs k6 - Performance Testing
 
-**Register for course at** https://www.udemy.com/course/mastering-k6-performance-testing-with-k6-grafana-labs/?referralCode=D32378741460900A0A85
+**Register for Mastery Course on Grafana Labs k6 - Performance Testing course at** https://www.udemy.com/course/mastering-k6-performance-testing-with-k6-grafana-labs/?referralCode=D32378741460900A0A85
 
 ![image](https://github.com/user-attachments/assets/04f56bd5-93e1-4d16-bdeb-f671c00ed0ba)
 
@@ -58,12 +58,12 @@ This course includes:
 
 -   90+ lectures covering all aspects of k6 and Grafana Labs
 
-**Register for course at** https://www.udemy.com/course/mastering-k6-performance-testing-with-k6-grafana-labs/?referralCode=D32378741460900A0A85
-
 -   Practical exercises and demos for hands-on learning
 
 -   Quizzes and assignments to test your understanding
 
 -   Discussion forums to interact with instructors and peers
+
+**Register for Mastery Course on Grafana Labs k6 - Performance Testing course at** https://www.udemy.com/course/mastering-k6-performance-testing-with-k6-grafana-labs/?referralCode=D32378741460900A0A85
 
 Join this course to become proficient in performance testing with k6 and Grafana Labs. Whether you're a developer, QA engineer, or IT professional, this course will equip you with the skills to ensure your applications are always performing at their best. Get ready to master k6 and take your performance testing to the next level!
